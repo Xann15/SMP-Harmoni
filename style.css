@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.img-logo {
+    align-items: center;
+    transform: translate(30%, 0);
+    width: 60%;
+    padding: 30px;
+}
+
+@media (min-width: 770px) {
+    .img-logo {
+        width: 40%;
+        transform: translate(75%,0);
+    }
+}
+
+@media (min-width: 900px) {
+    .img-logo {
+        width: 40%;
+        transform: translate(75%,0);
+    }
+}
+
+@media (min-width: 990px) {
+    .img-logo {
+        width: 30%;
+        transform: translate(115%,0);
+    }
+}
+
+@media (min-width: 1195px) {
+    .img-logo {
+        width: 30%;
+        transform: translate(115%,0);
+    }
+}
