@@ -9,6 +9,13 @@ body {
     padding: 30px;
 }
 
+.quote {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
 @media (min-width: 770px) {
     .img-logo {
         width: 40%;
