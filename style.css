@@ -4,13 +4,13 @@ body {
 
 .img-logo {
     align-items: center;
-    transform: translate(30%, 0);
+    transform: translate(35%, 0);
     width: 60%;
     padding: 30px;
 }
 
 .quote {
-    font-style: italic;
+    font-family: Mrs Saint , sans-serif;
     color: white;
     text-align: center;
     font-size: x-large;
@@ -19,7 +19,7 @@ body {
 @media (min-width: 770px) {
     .img-logo {
         width: 40%;
-        transform: translate(75%,0);
+        transform: translate(80%,0);
     }
 }
 
@@ -33,7 +33,7 @@ body {
 @media (min-width: 990px) {
     .img-logo {
         width: 30%;
-        transform: translate(115%,0);
+        transform: translate(117%,0);
     }
 }
 
