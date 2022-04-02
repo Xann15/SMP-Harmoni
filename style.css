@@ -1,25 +1,63 @@
 body {
-    background-color: black;
+    background-color: #222222;
 }
 
 .img-logo {
     align-items: center;
-    transform: translate(35%, 0);
+    transform: translate(33%, 0);
     width: 60%;
     padding: 30px;
 }
 
 .quote {
     font-family: Mrs Saint , sans-serif;
-    color: white;
+    color: rgb(228, 228, 228);
     text-align: center;
     font-size: x-large;
+    cursor: default;
+}
+
+.description {
+    color: rgb(226, 226, 226);
+    width: 80%;
+    font-size: 1rem;
+    padding-top: 35px;
+    transform: translate(12%);
+    cursor: default;
+}
+
+.description a {
+    color: #0066ff;;
+    text-decoration: none;
+}
+
+.description a:hover {
+    color: rgb(0, 255, 0);
+    transition: 0.5s;
+}
+
+.btn-incarousel {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    text-decoration: none;
+    width: 40%;
+    padding-top: 5px;
+    height: 40px;
+}
+
+.btn-incarousel:hover {
+    background: #0066ff;
+    color: white;
+    box-shadow: white 0 0 20px 0;
+    transition: 0.5s;
 }
 
 @media (min-width: 770px) {
     .img-logo {
         width: 40%;
-        transform: translate(80%,0);
+        transform: translate(75%,0);
     }
 }
 
